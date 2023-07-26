@@ -1,0 +1,96 @@
+body{
+    background: #BDBDBD;
+    margin: 0;
+    color:#212121;
+    
+}
+
+header{
+    text-align: center;
+    display: block;
+}
+.logo img{
+    border: 1.5px solid rgb(29, 28, 28);
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    /* box-shadow: -5px 4px 0px 0px #757575; */
+}
+
+h1{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0 auto;
+    text-align: center;   
+}
+
+ul li{
+    display: inline-block;
+    font-family: 'Pridi', serif;
+    font-weight: 500;
+}
+
+ul li a img{
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+.info{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Pridi', serif;
+    font-weight: 300;
+    max-width: 60vw;
+}
+
+.botones ul li{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+       
+}
+
+
+.btn{    
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid black;
+    padding: 15px;
+    color:#212121;
+    border-radius: 5px;
+    box-shadow: -5px 4px 0px 0px #757575;
+}
+
+.btn:hover{
+        background: black;
+        color: white;
+
+}
+
+
+footer p{
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+footer p a {
+    text-decoration: none;
+    color:black;
+}
